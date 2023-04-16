@@ -1,0 +1,116 @@
+body{
+    font-family: Arial;
+    height: 820px;
+    background: linear-gradient(
+      to top,
+      white 0%,
+      white 52.2%,
+      #11163c 47.8%,
+      #11163c 100%
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background{
+    height: 141px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+section{
+    position: absolute;
+    left:50%;
+    top:190px;
+    height:647px;
+    width: 550px;
+    margin-left: -275px;
+    background-color:#e9e9e9 ;
+    border-radius: 23px;
+    box-shadow: 0px 0px 30px -15px #0c0c0c;
+}
+.container1{
+    font-size: 28px;
+    display:flex;
+    max-width: 552px;
+    height: 160px;
+    border-radius: 23px;
+    color:white;
+    background-color:#6866ac ;
+    padding-left: 40px;
+    padding-right: 40px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container2{
+    font-size:16px;
+    padding: 58px 42px 27.5px;
+    text-align: justify;
+}
+
+#textbox{
+    font-size:14px;
+    color:black;
+    font-family: Arial;
+    height:197.5px;
+    width:446.5px;
+    border: 1px solid #b3b3b3;
+    border-radius: 4px;
+    background-color: #e9e9e9;
+    position: absolute;
+    margin-left: 39px;
+    padding: 17px 12px 17px;
+    resize: none;
+}
+
+#textbox:hover{
+    outline: 1px solid #1e1e1e;
+    outline-offset: -1px;
+}
+
+#textbox:focus{
+    outline: 2px solid #1976d2;    
+    outline-offset: -1.5px;
+}
+
+.input_group{
+    position: relative;
+}
+
+#placeholder{
+    font-size:14px;
+    color: #5e5e5e;
+    position:absolute;
+    top:356px;
+    left: 47px;
+    padding-left: 3px;
+    padding-right: 6px;
+    transition: 0.2s;
+    pointer-events: none;
+}
+
+
+#textbox:focus + #placeholder{    
+    top:330px;
+    background-color: #e9e9e9;
+    font-size: 11px;
+    color: #1976d2;
+}
+
+#charNum{
+    font-size:14px;
+    position:absolute;
+    top:571px;
+    left:236.5px;
+}
+
+#remainingChar{
+    font-size:14px;
+    position:absolute;
+    top: 601.5px;
+    left:230.5px;
+}
