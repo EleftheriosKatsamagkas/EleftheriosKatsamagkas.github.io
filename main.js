@@ -1,9 +1,11 @@
 function countChars(obj){
+    var initial_length = obj.value.length;
     var newString = obj.value;
     var withoutSpaces = newString.replace(/\s/g, "");
     var length = withoutSpaces.length;
     var maxsize = 250;
     var remaining = maxsize - length;
+    obj.setAttribute("maxlength", maxsize + initial_length - length);
     document.getElementById('charNum').innerHTML = length+" characters";
     document.getElementById('remainingChar').innerHTML = remaining+" remaining";
     const placeholder = document.getElementById('placeholder');
