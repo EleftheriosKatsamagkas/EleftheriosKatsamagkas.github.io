@@ -11,7 +11,7 @@ function countChars(obj){
     const placeholder = document.getElementById('placeholder');
     if(length>0){
         placeholder.style.top = '330px'; 
-        placeholder.style.fontSize = '11px';
+        placeholder.style.fontSize = '10.5px';
         placeholder.style.backgroundColor = '#e9e9e9';
     }else{
         placeholder.style.top = ''; 

@@ -14,9 +14,9 @@ body{
 }
 
 .background{
-    height: 141px;
+    height: 140.7px;
     position: absolute;
-    top: 0px;
+    top: 1.5px;
     left: 0px;
 }
 
@@ -48,7 +48,7 @@ section{
 
 .container2{
     font-size:16px;
-    padding: 58px 42px 27.5px;
+    padding: 58px 42px 28px;
     text-align: justify;
 }
 
@@ -63,7 +63,7 @@ section{
     background-color: #e9e9e9;
     position: absolute;
     margin-left: 39px;
-    padding: 17px 12px 17px;
+    padding: 17.5px 13px 17px;
     resize: none;
 }
 
@@ -85,8 +85,8 @@ section{
     font-size:14px;
     color: #5e5e5e;
     position:absolute;
-    top:356px;
-    left: 47px;
+    top:355.5px;
+    left: 50px;
     padding-left: 3px;
     padding-right: 6px;
     transition: 0.2s;
@@ -97,7 +97,7 @@ section{
 #textbox:focus + #placeholder{    
     top:330px !important;
     background-color: #e9e9e9 !important;
-    font-size: 11px !important;
+    font-size: 10px !important;
     color: #1976d2 !important;
 }
 
