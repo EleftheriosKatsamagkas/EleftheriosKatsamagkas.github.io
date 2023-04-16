@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img class ="background" src="ePostersLive.png" alt="background">
+<section>
+    <div class="container1">
+        <h>Character Counter (max number of characters 250)</h>
+    </div>
+    
+    <div class="container2">
+        <h>A character counter is a tool or function that counts the number of characters in a given text string. It is commonly used in text editing applications or forms to limit the number of characters that can be entered, or to provide feedback on how much characters have been used.</h>
+    </div>
+    <form>
+        <div class="input-group">
+        <textarea id="textbox" onkeydown="countChars(this)"; onkeyup="countChars(this);" maxlength="250"></textarea>
+        <label id="placeholder"onkeydown>Text</label>  
+        </div>
+    </form> 
+    <p id="charNum">0 characters</p>
+    <p id="remainingChar">250 remaining</p>
+</section>
+<script src="scigen.js"></script>
+</body>
+</html>
