@@ -1,4 +1,5 @@
 body{
+    /*blue-white background*/
     font-family: Arial;
     height: 820px;
     background: linear-gradient(
@@ -14,6 +15,7 @@ body{
 }
 
 .background{
+    /*'ePostersLive' image'*/
     height: 140.7px;
     position: absolute;
     top: 1.5px;
@@ -21,6 +23,7 @@ body{
 }
 
 section{
+    /*entire rectange of the app*/
     position: absolute;
     left:50%;
     top:190px;
@@ -32,6 +35,7 @@ section{
     box-shadow: 0px 0px 30px -15px #0c0c0c;
 }
 .container1{
+    /*top blue box of the rectangle*/
     font-size: 28px;
     display:flex;
     max-width: 552px;
@@ -47,12 +51,14 @@ section{
 }
 
 .container2{
+    /*description of the app*/
     font-size:16px;
     padding: 58px 42px 28px;
     text-align: justify;
 }
 
 #textbox{
+    /*text area*/
     font-size:14px;
     color:black;
     font-family: Arial;
@@ -66,6 +72,7 @@ section{
     padding: 17.5px 13px 17px;
     resize: none;
 }
+
 
 #textbox:hover{
     outline: 1px solid #1e1e1e;
@@ -93,7 +100,7 @@ section{
     pointer-events: none;
 }
 
-
+/*Transitions the placeholder to the top when the user clicks the box*/
 #textbox:focus + #placeholder{    
     top:330px !important;
     background-color: #e9e9e9 !important;
